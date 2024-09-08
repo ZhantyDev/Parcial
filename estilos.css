@@ -32,6 +32,7 @@
     width: 100%;
     display: flex;
     margin: 5px;
+    justify-content: center;
 }
 
 #informacion{
@@ -48,11 +49,25 @@
     border-color: white;
     border-width: 5px;
     border-style:double;
+    justify-content: center;
 }
 
 .datos{
     height: 90%;
     width: 95%;
     margin: 5px;   
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.text{
+    width: 100%;
+    border-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: white;
+    border-width: 1px;
+    border-style:groove;
+    text-align: center;
 }
