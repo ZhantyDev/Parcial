@@ -27,9 +27,32 @@
      font-size: large;
  }
 
- #informacion{
+ #general{
     height: 100%;
     width: 100%;
     display: flex;
     margin: 5px;
+}
+
+#informacion{
+    height:750px;
+    width: 70%;
+    margin: 5px;
+}
+
+#recomendacion{
+    height:750px;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style:double;
+}
+
+.datos{
+    height: 90%;
+    width: 95%;
+    margin: 5px;   
+    text-align: left;
 }
