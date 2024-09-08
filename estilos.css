@@ -7,3 +7,29 @@
     align-content: center;
     justify-content: center;
 }
+
+#input_juego{
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    font-size: x-large;
+    Font-family: "Consolas", monaco, monospace;
+ }
+ 
+ #botonConsultar{
+     height:30px;
+     width: 25%;
+     color:white;
+     Font-family: "Consolas", monaco, monospace;
+     background-color: #563b3b81;
+     margin: 5px;
+     border-radius: 10px;
+     font-size: large;
+ }
+
+ #informacion{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+}
