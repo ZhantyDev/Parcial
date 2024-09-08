@@ -24,27 +24,8 @@ const MostrarReco = () => {
     console.log(vec)
     console.log(vecData)
     let respuesta = document.getElementById('reco')
-    respuesta.innerHTML=`
-    <h2 class = "text">${vec[0]}</h2>    
-    <h2 class = "text">${vec[1]}</h2>    
-    <h2 class = "text">${vec[2]}</h2>    
-    <h2 class = "text">${vec[3]}</h2>    
-    <h2 class = "text">${vec[4]}</h2>    
-    <h2 class = "text">${vec[5]}</h2>    
-    <h2 class = "text">${vec[6]}</h2>    
-    <h2 class = "text">${vec[7]}</h2>    
-    <h2 class = "text">${vec[8]}</h2>    
-    <h2 class = "text">${vec[9]}</h2>    
-    <h2 class = "text">${vec[10]}</h2>    
-    <h2 class = "text">${vec[11]}</h2>    
-    <h2 class = "text">${vec[12]}</h2>    
-    <h2 class = "text">${vec[13]}</h2>    
-    <h2 class = "text">${vec[14]}</h2>    
-    <h2 class = "text">${vec[15]}</h2>    
-    <h2 class = "text">${vec[16]}</h2>    
-    <h2 class = "text">${vec[17]}</h2>    
-    <h2 class = "text">${vec[18]}</h2>
-    `
+    respuesta.innerHTML = vec.map((numero) => `
+    <h2 class="text"> ${numero}</h2>`).join('')    
 }
 
 const ImprimirInfo = (data) => {
